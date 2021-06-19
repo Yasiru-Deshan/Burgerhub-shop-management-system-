@@ -6,6 +6,7 @@ import SigninPage from './pages/SignInPage/signin';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
+import AddItem from './pages/AddItem';
 
 const App = ()=> {
   const [isOpen, setIsOpen] = useState(false)
@@ -22,6 +23,7 @@ const App = ()=> {
       <Switch>
         <Route path='/' component={Home} exact/>
         <Route path='/signin' component={SigninPage} exact/>
+        <Route path='/add' component={AddItem} exact/>
 
        
       </Switch>
