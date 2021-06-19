@@ -11,7 +11,6 @@ import {
          ServicesWrapper,
          ServicesCard,
          ServicesIcon,
-         Servicesp
 } from './MenuElements';
 import { Button } from '../../ButtonElements';
 
