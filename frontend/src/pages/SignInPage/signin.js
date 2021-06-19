@@ -1,11 +1,8 @@
 import React from 'react'
-import HeroSection from '../../components/HomeComponents/HeroSection'
 import './SignIn.css'
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput } from 'mdbreact';
 import { Button,Form } from 'react-bootstrap';
-import { homeObjFour, homeObjTwo, SignCard } from '../../components/HomeComponents/InfoSection/Data';
-import InfoSection from '../../components/HomeComponents/InfoSection';
-import { Column1, Column2, InfoRow,Img,ImgWrap, InfoWrapper, InfoContainer } from '../../components/HomeComponents/InfoSection/InfoElements';
+
+import { Column1, Column2, InfoRow,Img,ImgWrap, InfoWrapper } from '../../components/HomeComponents/InfoSection/InfoElements';
 
 const SigninPage = () => {
     return (

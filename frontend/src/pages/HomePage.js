@@ -1,4 +1,4 @@
-import React,{ useState} from 'react';
+import React from 'react';
 import HeroSection from '../components/HomeComponents/HeroSection';
 import InfoSection from '../components/HomeComponents/InfoSection';
 import HomeMenu from '../components/HomeComponents/HomeMenu';
