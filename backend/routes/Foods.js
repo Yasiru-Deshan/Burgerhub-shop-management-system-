@@ -24,7 +24,7 @@ newFood.save().then(()=>{
 } )
 
 
-router.route("/").get((req,res)=>{
+router.route("/menu").get((req,res)=>{
 
     Food.find().then((foods)=>{
         res.json(foods)

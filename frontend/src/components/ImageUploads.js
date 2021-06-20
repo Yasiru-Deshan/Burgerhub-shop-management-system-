@@ -23,7 +23,7 @@ class ImageUpload extends Component{
                 imgExtension={['.jpg', '.gif', '.png', '.gif']}
                 maxFileSize={5242880}
                 style={{
-                    width: 450,     
+                    width: 380,     
                          
                 }}
             />

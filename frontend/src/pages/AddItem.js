@@ -55,7 +55,7 @@ function AddItem(){
          } />
   </Form.Group>
 
-  <Button variant="primary" type="submit">
+  <Button variant="primary" type="submit" >
     Add Item
   </Button>
 </Form>
