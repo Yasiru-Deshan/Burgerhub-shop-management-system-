@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import AddItem from './pages/AddItem';
-import Menu from './pages/Menu';
+import Menu from './pages/Menu'
 
 const App = ()=> {
   const [isOpen, setIsOpen] = useState(false)
@@ -22,10 +22,11 @@ const App = ()=> {
       <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>    
       <Switch>
-        <Route path='/' component={Home} exact/>
+        
         <Route path='/signin' component={SigninPage} exact/>
         <Route path='/add' component={AddItem} exact/>
         <Route path='/menu' component={Menu} exact/>
+        <Route path='/' component={Home} exact/>
 
        
       </Switch>

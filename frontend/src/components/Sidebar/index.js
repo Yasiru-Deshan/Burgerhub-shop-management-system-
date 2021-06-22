@@ -8,6 +8,7 @@ import {
        SidebarRoute,
        SidebarWrapper,
        SidebarLink,
+       SidebarLinks
 } from './SidebarElements'
 
 const Sidebar = ({isOpen, toggle}) => {
@@ -18,12 +19,12 @@ const Sidebar = ({isOpen, toggle}) => {
            </Icon>
            <SidebarWrapper>
                <SidebarMenu>
-                   <SidebarLink to="menu" onClick={toggle}>
+                   <SidebarLinks to="menu" onClick={toggle}>
                        Menu
-                   </SidebarLink>
-                   <SidebarLink to="offers" onClick={toggle}>
+                   </SidebarLinks>
+                   <SidebarLinks to="offers" onClick={toggle}>
                        Offers
-                   </SidebarLink>
+                   </SidebarLinks>
                    <SidebarLink to="about" onClick={toggle}>
                        About Us
                    </SidebarLink>

@@ -9,6 +9,7 @@ import { Nav,
          NavMenu, 
          NavItem, 
          NavLinks,
+         NavLink,
          NavBtn,
          NavBtnLink
         } from './NavbarElements'; 
@@ -48,22 +49,22 @@ const Navbar = ({ toggle}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to='/menu'
+                          <NavLink to='/menu'
                                     smooth={true} 
                                     duration={500} 
                                     spy={true} 
                                     exact='true' 
                                     offset={-80}
                                 
-                                    >Menu</NavLinks>
+                                    >Menu</NavLink>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="offers"
+                          <NavLink to="/offers"
                                     smooth={true} 
                                     duration={500} 
                                     spy={true} 
                                     exact='true' 
-                                    offset={-80}>Offers</NavLinks>
+                                    offset={-80}>Offers</NavLink>
                       </NavItem>
                       <NavItem>
                           <NavLinks to="about"
